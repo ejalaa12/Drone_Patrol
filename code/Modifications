@@ -1,0 +1,22 @@
++ Environnement:
+	- ajout de la méthode positionsNaufrages (l. 308)
+	
++ Element:
+	- ajout des commentaires pour comprendre la méthode positionSuivanteObjet
+	- la méthode positionSuivanteObjet comportait 2 erreurs (+1 oubliés, j'ai corrigé)
+	- dans cette méthode est ce que c'est vraiment nécessaire de faire les colonnes directs à côté ?
+		-> dans certains cas on peut perdre du temps (prendre la mauvaise direction (un tour de trop))
+		-> ça sert à rien de rester sur la même ligne si on sait déjà que c'est forcément au dessus.
+		-> et puis ça ferait 3 if au lieu de 5
+		
++ Dronev2:
+	nouvelle version du drone elle marche niquel !!! :D
+
+NOTES :
+ Problème dans ma méthode de détection car comment ensuite suivre le naufrage détectée ?
+ Méthode suiveur doit suiveur le naufrage qu'on voit, c'est un peu bizarre de connaître tout du naufragé...
+ corrigée dans v3
+
+ 
+ 
+09/05/2014 5:31
